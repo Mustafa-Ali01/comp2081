@@ -4,6 +4,17 @@
 body {
   margin: 0;
   line-height: 1.5;
+  background: #fff;
+  color: #1b3768;
+}
+
+a {
+  color: #1b3768;
+}
+
+::selection {
+  background: #1b3768;
+  color: #fff;
 }
 
 img {
@@ -19,6 +30,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 1rem 5%;
+  border-bottom: 1px solid #e3e7ef;
 }
 
 .brand {
@@ -60,11 +72,18 @@ main {
 
 .cards article {
   padding: 1.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #e3e7ef;
+}
+
+.cards article:first-child {
+  background: #3276ec;
+  color: #fff;
 }
 
 .process {
   grid-area: process;
+  background: #eef1f6;
+  padding: 2rem;
 }
 
 .steps {
@@ -79,7 +98,7 @@ main {
 .steps li {
   flex-grow: 1;
   flex-basis: 12rem;
-  border-top: 2px solid #ccc;
+  border-top: 2px solid #1b3768;
 }
 
 .arms {
