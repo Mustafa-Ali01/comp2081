@@ -35,7 +35,8 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-    "welcome";
+    "welcome"
+    "services";
   gap: 3rem;
   padding: 2rem 5%;
 }
@@ -43,4 +44,19 @@ main {
 .welcome {
   grid-area: welcome;
   text-align: center;
+}
+
+.services {
+  grid-area: services;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.cards article {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
 }
