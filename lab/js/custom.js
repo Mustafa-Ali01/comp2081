@@ -2,7 +2,7 @@
 // STEP 15: Call up the carousel using the id, and use the .carousel() method create the options object
 const carousel = new bootstrap.Carousel("#carouselCars", {
     // ride: carousel,
-    interval: 1000,
+    interval: 5000,
     pause: false,
     wrap: false
 })
