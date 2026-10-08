@@ -6,6 +6,10 @@ body {
   line-height: 1.5;
   background: #fff;
   color: #1b3768;
+  font-family: "Libre Franklin";
+}h1,h2,h3,.brand {
+  font-family: "Marcellus";
+  font-weight: normal;
 }
 
 a {
