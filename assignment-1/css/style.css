@@ -37,7 +37,8 @@ main {
   grid-template-areas:
     "welcome"
     "services"
-    "process";
+    "process"
+    "arms";
   gap: 3rem;
   padding: 2rem 5%;
 }
@@ -79,4 +80,26 @@ main {
   flex-grow: 1;
   flex-basis: 12rem;
   border-top: 2px solid #ccc;
+}
+
+.arms {
+  grid-area: arms;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.arms figure {
+  margin: 0;
+  text-align: center;
+}
+
+.arms img {
+  max-width: 250px;
+}
+
+.arms figcaption {
+  font-size: 0.875rem;
+  font-style: italic;
 }
