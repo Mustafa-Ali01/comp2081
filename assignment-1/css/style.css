@@ -1,4 +1,4 @@
-/*  Assignment 1
+/*  Assignment 1 */
 
 
 body {
@@ -29,4 +29,18 @@ header {
 
 .brand img {
   width: 40px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "welcome";
+  gap: 3rem;
+  padding: 2rem 5%;
+}
+
+.welcome {
+  grid-area: welcome;
+  text-align: center;
 }
