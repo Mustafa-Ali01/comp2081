@@ -31,6 +31,10 @@ header {
   border-bottom: 1px solid #e3e7ef;
 }
 
+.main-nav {
+  flex-basis: 100%;
+}
+
 .main-nav ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -168,6 +172,16 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .main-nav {
+    flex-basis: auto;
+    margin-left: auto;
+  }
+
+  .main-nav ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+
   .cards {
     grid-template-columns: repeat(3, 1fr);
   }
