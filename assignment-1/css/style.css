@@ -39,6 +39,13 @@ header {
   list-style: none;
 }
 
+.main-nav a {
+  display: block;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-decoration: none;
+}
+
 .brand {
   display: flex;
   align-items: center;
