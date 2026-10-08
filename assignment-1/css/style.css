@@ -36,7 +36,8 @@ main {
   grid-template-columns: 1fr;
   grid-template-areas:
     "welcome"
-    "services";
+    "services"
+    "process";
   gap: 3rem;
   padding: 2rem 5%;
 }
@@ -59,4 +60,23 @@ main {
 .cards article {
   padding: 1.5rem;
   border: 1px solid #ccc;
+}
+
+.process {
+  grid-area: process;
+}
+
+.steps {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steps li {
+  flex-grow: 1;
+  flex-basis: 12rem;
+  border-top: 2px solid #ccc;
 }
