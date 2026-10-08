@@ -31,6 +31,14 @@ header {
   border-bottom: 1px solid #e3e7ef;
 }
 
+.main-nav ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
 .brand {
   display: flex;
   align-items: center;
